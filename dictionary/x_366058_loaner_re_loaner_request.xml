@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="Loaner Request" max_length="40" name="x_366058_loaner_re_loaner_request" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" default="sc" label="Depot" max_length="40" name="depot" type="string">
+            <choice>
+                <element label="new york" sequence="0" value="ny"/>
+                <element label="london" sequence="1" value="london"/>
+                <element label="buenes aires" sequence="2" value="ba"/>
+                <element label="santa clara" sequence="3" value="sc"/>
+                <element label="singapore" sequence="4" value="singapore"/>
+                <element label="sydney" sequence="5" value="sydney"/>
+                <element label="other" sequence="6" value="other"/>
+            </choice>
+        </element>
+        <element label="end date" mandatory="true" max_length="40" name="end_date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="cmdb_ci_mobile_phone" label="item type" max_length="40" name="item_tye" type="string">
+            <choice>
+                <element label="laptop" sequence="0" value="cmdb_ci_computer"/>
+                <element label="mobile phone" sequence="1" value="cmdb_ci_mobile_phone"/>
+                <element label="projector" sequence="2" value="cmdb_ci_projector"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="cmdb_ci_mobile_phone" label="item type" max_length="40" name="item_type" type="string">
+            <choice>
+                <element label="laptop" sequence="0" value="cmdb_ci_computer"/>
+                <element label="mobile phone" sequence="1" value="cmdb_ci_mobile_phone"/>
+                <element label="projector" sequence="2" value="cmdb_ci_projector"/>
+            </choice>
+        </element>
+        <element label="start date" mandatory="true" max_length="40" name="start_date" type="glide_date_time"/>
+        <element label="start date" mandatory="true" max_length="40" name="start_end" type="glide_date_time"/>
+        <element label="requested for" mandatory="true" max_length="32" name="u_reference_3" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="requested for" mandatory="true" max_length="40" name="u_requested_for" reference="x_366058_loaner_re_loaner_request" type="string"/>
+    </element>
+</database>

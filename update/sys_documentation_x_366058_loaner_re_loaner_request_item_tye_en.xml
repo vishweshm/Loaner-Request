@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="item_tye" label="item type" language="en" table="x_366058_loaner_re_loaner_request">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>item_tye</element>
+            <help/>
+            <hint/>
+            <label>item type</label>
+            <language>en</language>
+            <name>x_366058_loaner_re_loaner_request</name>
+            <plural>item types</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-13 08:41:10</sys_created_on>
+            <sys_id>c9f7cd85db823300bd097dda8c961984</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>item type</sys_name>
+            <sys_package display_value="Loaner Request" source="x_366058_loaner_re">52cee809db423300bd097dda8c961900</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Loaner Request">52cee809db423300bd097dda8c961900</sys_scope>
+            <sys_update_name>sys_documentation_x_366058_loaner_re_loaner_request_item_tye_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-13 08:41:10</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
